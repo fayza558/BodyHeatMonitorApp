@@ -1,0 +1,68 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="top">
+
+    <!-- Title: BodyHeat Monitor -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BodyHeat Monitor"
+        android:textSize="32sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginBottom="32dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Body Heat Monitor Title" />
+
+    <!-- Username Input -->
+    <EditText
+        android:id="@+id/usernameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your username"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Username Input Field" />
+
+    <!-- Ambient Temperature Display -->
+    <TextView
+        android:id="@+id/ambientTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ambient Temperature: 0 °C"
+        android:textSize="22sp"
+        android:layout_marginBottom="24dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Ambient Temperature Display" />
+
+    <!-- Object Temperature Display -->
+    <TextView
+        android:id="@+id/objectTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Object Temperature: 0 °C"
+        android:textSize="22sp"
+        android:layout_marginBottom="24dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Object Temperature Display" />
+
+    <!-- Fetch Data Button -->
+    <Button
+        android:id="@+id/fetchDataButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="Fetch Data Button"
+        android:importantForAccessibility="yes"
+        android:padding="16dp"
+        android:text="Fetch Data"
+        android:textSize="22sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/holo_blue_dark" />
+
+</LinearLayout>
